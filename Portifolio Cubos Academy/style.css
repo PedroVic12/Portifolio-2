@@ -1,0 +1,237 @@
+main{
+    padding: 30px 30px;
+    display: flex;
+    
+}
+
+
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-bottom: -120px;
+    margin-right: 50px;
+    
+}
+
+h1, h2, h3{
+    margin: 0;
+    display: inline;
+
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: normal;
+    color: white;
+   
+}
+
+h1 span{ 
+    font-weight: bold;
+}
+
+.apresentação p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d9e2ee;
+    
+}
+
+
+
+body{
+    background-color: #d9e2ee;
+    margin: 0;
+    
+}
+
+header{
+    background-color: #173861;
+     padding: 20px 64px;
+     display: flex;
+     flex-direction: row;
+     width: 1860px;
+}
+
+
+.apresentação{
+    display: inline-block;
+}
+
+.Coluna-Esquerda{
+    margin-top: 100px;
+    margin-left: -20px;
+}
+
+.Coluna-Esquerda_contatos{
+    padding: 0px;
+}
+.Coluna-Esquerda_contatos h2{
+    margin-left: 70px;
+    color: rgb(180, 25, 11);
+    
+
+}
+
+.Coluna-Esquerda_contatos h3{
+    font-weight: normal;
+}
+
+.Coluna-Esquerda_contatos ul{
+    margin-top: 5px;
+    padding-bottom: 2px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: o;
+}
+
+.Coluna-Esquerda h3{
+    font-size: 18px;
+    font-weight: normal;
+    
+    
+}
+
+.Coluna-Esquerda_redessociais{
+    padding-top: 20px;
+}
+
+
+
+.Coluna-Esquerda_redessociais h2{
+    margin-left: 70px;
+    color: rgb(251, 25, 5);
+
+}
+
+.Coluna-Esquerda_redessociais a{
+    text-decoration: none;
+    
+}
+
+.Coluna-Esquerda_redessociais li{
+    padding: 5px;
+}
+.Coluna-Esquerda_redessociais ul{
+    margin-top: 5px;
+    padding-bottom: 10px
+
+}
+
+
+
+.Coluna-Esquerda_certificados h2{
+    margin-left: 70px;
+    color: rgb(180, 25, 11);
+    
+    
+}
+
+.Coluna-Esquerda_certificados ul{
+    margin-top: -2px;
+}
+
+.Coluna-Esquerda_certificados p{
+   color: rgb(68, 80, 92);
+   margin-top: -2px;
+   font-family: cursive;
+}
+
+.Coluna-Esquerda_certificados img {
+    width: 24px;
+    height: 24px;
+}
+
+.Coluna-Esquerda_certificados a{
+    display: block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Coluna-Esquerda li {
+    display: flex;
+}
+
+.Coluna_Direita{
+    margin-left: 80px;
+}
+
+.Coluna_Direita h2{
+    margin-left: 12px;
+}
+
+
+.habilidades{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.habilidades_grupo{
+    background-color: white;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 12px;
+    width: 288px;
+}
+.habilidades_grupo li{
+    margin-top: -10px;
+    margin-left: -38px;
+}
+
+.habilidades_grupo li:first-child{
+    margin-top: -40px;
+}
+
+.habilidades_grupo h3{
+    font-size: 36px;
+    font-weight: bold;
+    
+
+}
+
+.item{
+    font-size: 24px
+
+}
+
+.progresso{
+    width: 100%;
+    display: flex;
+    
+}
+
+.barra{
+    width: 20%;
+    height: 4px;
+    background-color: black;
+    margin-top: -22px;
+}
+
+.incompleto{
+    opacity: 0.2;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+@media screen and (min-width: 325px) {
+    .Coluna_Direita{
+        display:flex;
+        flex-wrap: nowrap;
+        margin-left: 150px;
+        
+        
+}
+}
+
